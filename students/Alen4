@@ -1,0 +1,6 @@
+try:
+	expr = input("Enter an expression")
+	result = eval(expr)
+	print(result)
+except:
+	print("Division by zero is not Defined")
